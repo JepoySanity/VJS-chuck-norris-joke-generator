@@ -28,6 +28,8 @@ function getJokes(e) {
         });
         document.getElementById("jokes").innerHTML = output;
         console.log(output);
+      } else {
+        console.log("something went wrong");
       }
     }
   };
