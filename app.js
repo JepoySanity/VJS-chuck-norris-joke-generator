@@ -14,7 +14,7 @@ function getJokes(e) {
         let output = "";
         response.value.forEach(function (joke) {
           output += `
-          <div class="card mb-2">
+          <div class="card mb-4">
             <div class="card-header">
               <h6>JOKE #${joke.id}</h6>
             </div>
